@@ -31,7 +31,7 @@ function authService($q, Restangular, appConfigs, $localStorage) {
         //     }, function (err) {
         //         deferred.reject(err);
         //     });
-        if (account.username === "nguyenchanhtrung1996@gmail.com" && account.password === "01626615813") {
+        if (account.username === "nguyenchanhtrung1996@gmail.com" && account.password === "nguyenchanhtrung") {
             var res = { token_type: "Bearer", access_token: "adminabc123" }
             deferred.resolve(res);
         } else {
